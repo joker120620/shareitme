@@ -68,10 +68,7 @@ CREATE TABLE `tbl_usuarios` (
 LOCK TABLES `tbl_usuarios` WRITE;
 /*!40000 ALTER TABLE `tbl_usuarios` DISABLE KEYS */;
 INSERT INTO `tbl_usuarios` VALUES
-(21,'davidtoloza1234@hotmail.com','Juan','1234'),
-(22,'r2hub0000@gmail.com','root','root'),
-(23,'0@gmail.com','Ff','gg'),
-(25,'carlos@gmail.com','carlos','1234');
+(01,'root@gmail.com','root','root');
 /*!40000 ALTER TABLE `tbl_usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
